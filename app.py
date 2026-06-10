@@ -15,7 +15,7 @@ from backend.vector_store import add_paper, list_papers
 from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 
-st.set_page_config(page_title="Papeer", page_icon="📚", layout="centered")
+st.set_page_config(page_title="ResearchMate", page_icon="📚", layout="centered")
 
 
 @st.cache_resource
